@@ -12,6 +12,9 @@ const TextForm = () => {
                         <Form.Control as="textarea" rows={8} />
                     </Form.Group>
                 </Form>
+                <button className='btn btn-primary mx-1'>Convert to UpperCase</button>
+                <button className='btn btn-primary mx-1'>Convert to LowerCase</button>
+                <button className='btn btn-primary mx-1'>Clear All</button>
             </Container>
 
         </div>
