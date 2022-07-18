@@ -5,14 +5,11 @@ import Container from 'react-bootstrap/esm/Container';
 const TextForm = () => {
     return (
         <div>
-            <h1>Write Your Text Here</h1>
+            <h1 style={{}} className='mt-5'>Write Your Text Here</h1>
             <Container >
                 <Form>
                     <Form.Group className="mb-3 ">
-                        <Form.Label>Your Text Here</Form.Label>
-                        <div className="form-control">
-                        <Form.Control as="textarea" rows={3} />
-                        </div>
+                        <Form.Control as="textarea" rows={8} />
                     </Form.Group>
                 </Form>
             </Container>
