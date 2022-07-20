@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link, useNavigate } from 'react-router-dom';
 
-const NavBar = (props) => {
+const NavBar = () => {
     const [isLoggedIn, setisLoggedIn] = useState(null)
     const navigate = useNavigate()
 

@@ -1,6 +1,7 @@
-import React from 'react'
+import React from "react"
 
-const Signup = () => {
+const Signup = (user) => {
+
   return (
     <div>
         <h1>Please Signup Here</h1>
