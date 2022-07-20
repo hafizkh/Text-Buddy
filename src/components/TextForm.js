@@ -32,7 +32,7 @@ const TextForm = () => {
                 </Form>
                 <button className='btn btn-primary mx-1' onClick = {handleUpperCase}>Convert to UpperCase</button>
                 <button className='btn btn-primary mx-1' onClick = {handleLowerCase}>Convert to LowerCase</button>
-                <button className='btn btn-primary mx-1'onClick = {clearAll}>Clear All</button>
+                <button className='btn btn-primary mx-1' onClick = {clearAll}>Clear All</button>
             </Container>
 
         </div>
