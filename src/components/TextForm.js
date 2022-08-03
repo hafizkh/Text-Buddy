@@ -26,9 +26,9 @@ const TextForm = () => {
     }
     return (
         <div>
-            <h1 className='mt-5'>Write Your Text Here</h1>
             <Container >
-                <Form>
+            <h1 className='mt-5' style={{textAlign: 'left'}}>Write Your Text Here</h1>
+                <Form className='mt-3'>
                     <Form.Group className="mb-3" >
                         <Form.Control value={text} onChange={onChange} as="textarea" rows={8} />
                     </Form.Group>
@@ -37,7 +37,11 @@ const TextForm = () => {
                 <button className='btn btn-primary mx-1' onClick = {handleLowerCase}>Convert to LowerCase</button>
                 <button className='btn btn-primary mx-1' onClick = {clearAll}>Clear All</button>
                 <button className='btn btn-primary mx-1' onClick = {clearSpace}>Clear Extra Space</button>
+            <h2 className='mt-3' style={{textAlign: 'left'}}>Words Count</h2>
+
+            <h5 className='mt-3' style={{textAlign: 'left'}}>{text.length >0? <p>Total Characters: {text.length}</p>  : "Please Write in the Above Box"}</h5>
             </Container>
+
 
         </div>
     )
