@@ -19,7 +19,10 @@ const TextForm = () => {
 
     const clearAll = ()=>{
         setText('')
+    }
 
+    const clearSpace =()=>{
+        setText(text.replace(/\s+/g,' ').trim())
     }
     return (
         <div>
@@ -33,6 +36,7 @@ const TextForm = () => {
                 <button className='btn btn-primary mx-1' onClick = {handleUpperCase}>Convert to UpperCase</button>
                 <button className='btn btn-primary mx-1' onClick = {handleLowerCase}>Convert to LowerCase</button>
                 <button className='btn btn-primary mx-1' onClick = {clearAll}>Clear All</button>
+                <button className='btn btn-primary mx-1' onClick = {clearSpace}>Clear Extra Space</button>
             </Container>
 
         </div>
