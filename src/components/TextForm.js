@@ -36,7 +36,7 @@ const TextForm = () => {
                 <button className='btn btn-primary mx-1' onClick = {handleUpperCase}>Convert to UpperCase</button>
                 <button className='btn btn-primary mx-1' onClick = {handleLowerCase}>Convert to LowerCase</button>
                 <button className='btn btn-primary mx-1' onClick = {clearAll}>Clear All</button>
-                <button className='btn btn-primary mx-1' onClick = {clearSpace}>Clear Extra Space</button>
+                <button className='btn btn-primary mx-1' onClick = {clearSpace}>Remove Extra Space</button>
             <h2 className='mt-3' style={{textAlign: 'left'}}>Words Count</h2>
 
             <h5 className='mt-3' style={{textAlign: 'left'}}>{text.length >0? <p>Total Characters: {text.length}</p>  : "Please Write in the Above Box"}</h5>
