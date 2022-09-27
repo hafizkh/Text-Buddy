@@ -2,11 +2,13 @@
 
 #### The URL of the Text-Buddy is as follows:
 
-https://hafizkh.github.io/Text-Buddy/
+[Text Buddy](https://hafizkh.github.io/Text-Buddy/)
 
 - This Application can be used to manipulate the text data
 - It can be used to make the text Uppercase, LowerCase
 
-#### Stacks Used in this project:
-
-- This project is for practice React and React components used in it.
+#### TechStack Used:
+<p>
+  <a href="#"><img alt="React" src="https://img.shields.io/badge/React%20-61DAFB.svg?logo=react&logoColor=white"></a>
+  <a href="#"><img alt="BootStrap" src="https://img.shields.io/badge/BootStrap-7952B3.svg?logo=BootStrap&logoColor=white"></a>
+</p>
