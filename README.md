@@ -4,7 +4,7 @@
 
 [Text Buddy](https://hafizkh.github.io/Text-Buddy/)
 
-- This Application can be used to manipulate the text data
+- This Application can be used to manipulate the text data and we can also use it for testing something
 - It can be used to make the text Uppercase, LowerCase
 
 #### TechStack Used:
